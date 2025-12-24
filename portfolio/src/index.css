@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  background: linear-gradient(
+      135deg,
+      #E6E9FF 0%,
+      #D9D9FF 20%,
+      #C6CCFF 50%,
+      #B5C2F2 100%
+  );
+
+  background-attachment: fixed;
+  color: #1a1a1a;
+  scroll-behavior: smooth;
+}
+
+
+
+
