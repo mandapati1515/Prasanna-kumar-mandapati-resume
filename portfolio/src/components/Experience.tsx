@@ -20,7 +20,7 @@ const experiences: ExperienceItem[] = [
     company: "Algebra IT – General Motors, USA",
     role: "Software Engineer",
     period: "Mar 2025 – Present",
-    location: "Remote, USA",
+    location: "Hybrid, USA",
     bullets: [
       "Develop backend services using Java 17, Spring Boot, and JDBC to ingest and validate vehicle configuration data.",
       "Improved engineering data quality from 60% → 95% through automated validation workflows.",
@@ -35,8 +35,8 @@ const experiences: ExperienceItem[] = [
     logo: "/logos/apple.png",
     company: "Algebra IT – Apple Inc, USA",
     role: "Software Engineer",
-    period: "Feb 2024 – Feb 2025",
-    location: "Remote, USA",
+    period: "Jun 2023 – Feb 2025",
+    location: "Hybrid, USA",
     bullets: [
       "Optimized backend throughput using Java 21 + WebFlux reactive pipelines.",
       "Built scalable REST services consumed by internal Apple React applications.",
@@ -51,7 +51,7 @@ const experiences: ExperienceItem[] = [
     company: "Agility E-Services Pvt Ltd, India",
     role: "Software Developer",
     period: "Jun 2019 – Jul 2021",
-    location: "India",
+    location: "Onsite, India",
     bullets: [
       "Developed enterprise integration services using Spring Boot and IBM MQ.",
       "Implemented automated REST/SOAP data exchange workflows for large clients.",
