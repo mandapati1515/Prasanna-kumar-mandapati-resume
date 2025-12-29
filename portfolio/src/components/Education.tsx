@@ -26,41 +26,6 @@ const Education = () => {
                        transition-all overflow-hidden"
           >
             <div className="absolute left-0 top-0 h-full w-1.5 bg-gradient-to-b from-[#7A95FF] to-[#AABEFF]" />
-            <div className="absolute right-0 top-0 w-40 h-40 bg-[#CDD6FF]/30 blur-2xl rounded-full pointer-events-none" />
-
-            <div className="flex items-start gap-4">
-              <motion.div
-                animate={{ rotate: [-6, 6, -6] }}
-                transition={{
-                  repeat: Infinity,
-                  duration: 3,
-                  ease: "easeInOut",
-                }}
-                className="text-[#7A95FF] text-4xl mt-1"
-              >
-                <PiGraduationCapDuotone />
-              </motion.div>
-
-              <div>
-                <h3 className="font-semibold text-gray-900 text-[16px]">
-                  Master of Science in Data Analytics
-                </h3>
-                <p className="text-sm text-gray-600">
-                  Indiana Wesleyan University · Dec 2024
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* DEGREE 2 */}
-          <motion.div
-            whileHover={{ scale: 1.02, y: -3 }}
-            transition={{ type: "spring", stiffness: 200, damping: 18 }}
-            className="relative p-6 rounded-xl border bg-white/60 backdrop-blur-xl
-                       border-[#E3E7FF] hover:shadow-[0_8px_24px_rgba(150,150,200,0.25)]
-                       transition-all overflow-hidden"
-          >
-            <div className="absolute left-0 top-0 h-full w-1.5 bg-gradient-to-b from-[#7A95FF] to-[#AABEFF]" />
             <div className="absolute right-0 top-0 w-40 h-40 bg-[#D6DDFF]/30 blur-2xl rounded-full pointer-events-none" />
 
             <div className="flex items-start gap-4">
@@ -81,13 +46,17 @@ const Education = () => {
                   Master of Science in Data Science
                 </h3>
                 <p className="text-sm text-gray-600">
-                  Indiana University Purdue University · May 2023
+                  Indiana University Indianapolis · May 2023
+                </p>
+                <p className="text-xs text-gray-500 mt-1">
+                  CGPA:{" "}
+                  <span className="font-medium text-gray-700">3.8 / 4.0</span>
                 </p>
               </div>
             </div>
           </motion.div>
 
-          {/* DEGREE 3 */}
+          {/* DEGREE 2 */}
           <motion.div
             whileHover={{ scale: 1.02, y: -3 }}
             transition={{ type: "spring", stiffness: 200, damping: 18 }}
@@ -117,6 +86,10 @@ const Education = () => {
                 </h3>
                 <p className="text-sm text-gray-600">
                   Bapatla Engineering College · Apr 2019
+                </p>
+                <p className="text-xs text-gray-500 mt-1">
+                  CGPA:{" "}
+                  <span className="font-medium text-gray-700">3.1 / 4.0</span>
                 </p>
               </div>
             </div>

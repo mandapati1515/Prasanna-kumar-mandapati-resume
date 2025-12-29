@@ -160,12 +160,16 @@ const Hero = () => {
               </span>
               {"\n"}
               <span className="text-emerald-600">
-                - WebFlux / Kafka / Distributed Systems
+                - WebFlux / IBM MQ / Distributed Systems
               </span>
               {"\n"}
-              <span className="text-emerald-600">- PostgreSQL / MongoDB</span>
+              <span className="text-emerald-600">
+                - PostgreSQL / MSSQL / MongoDB
+              </span>
               {"\n"}
-              <span className="text-emerald-600">- AWS Cloud Engineering</span>
+              <span className="text-emerald-600">
+                - AWS / Azure Cloud Engineering
+              </span>
               {"\n\n"}
               <span className="text-gray-500">STATUS:</span>{" "}
               <span className="text-green-600 font-semibold">
